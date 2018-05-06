@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WikiSearch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+    <style>
+        html{
+            background-color:  #327b9a;
+        }
+        #search-area{
+            margin-top: 20%;
+            text-align: center;
+        }
+        #search-bar{
+            width: 500px;
+        }
+        #random-div{
+            text-align: center;
+            margin: 5px; 
+        }
+        .mybox{
+            margin:10px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="search-area" class="container is-desktop is-vcentered">
+<input id="search-bar" class="input" type="text" placeholder="Search">
+<input id="search-button" class="button is-primary" type="button" value="Go">
+
+</div>
+<div id="random-div">
+        <input id="random-button" class="button is-primary" type="button" value="Random Article">
+</div>
+
+<div class="container" id="results">
+
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="GetArticles.js"></script>
+</body>
+</html>
